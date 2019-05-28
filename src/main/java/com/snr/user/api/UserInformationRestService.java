@@ -21,5 +21,7 @@ public class UserInformationRestService {
 	public User getUserBasicInformation(@PathVariable("userId")String userId) {
 		return new User("Alex", "#45, ABC street", "1234567891");
 	}
+	
+	
 
 }
